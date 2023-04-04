@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct household_inventory_appApp: App {
+struct household_inventory_app: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
