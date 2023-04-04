@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44E7315929DBC5F4004BD3E2 /* household_inventory_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7315829DBC5F4004BD3E2 /* household_inventory_appApp.swift */; };
+		44E7315B29DBC5F4004BD3E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7315A29DBC5F4004BD3E2 /* ContentView.swift */; };
+		44E7315D29DBC5F5004BD3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E7315C29DBC5F5004BD3E2 /* Assets.xcassets */; };
+		44E7316029DBC5F5004BD3E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E7315F29DBC5F5004BD3E2 /* Preview Assets.xcassets */; };
+		44E7316229DBC5F5004BD3E2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7316129DBC5F5004BD3E2 /* Persistence.swift */; };
+		44E7316529DBC5F5004BD3E2 /* household_inventory_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44E7316329DBC5F5004BD3E2 /* household_inventory_app.xcdatamodeld */; };
+		44E7316F29DBC5F5004BD3E2 /* household_inventory_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7316E29DBC5F5004BD3E2 /* household_inventory_appTests.swift */; };
+		44E7317929DBC5F5004BD3E2 /* household_inventory_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7317829DBC5F5004BD3E2 /* household_inventory_appUITests.swift */; };
+		44E7317B29DBC5F5004BD3E2 /* household_inventory_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7317A29DBC5F5004BD3E2 /* household_inventory_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44E7316B29DBC5F5004BD3E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44E7314D29DBC5F4004BD3E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E7315429DBC5F4004BD3E2;
+			remoteInfo = "household-inventory-app";
+		};
+		44E7317529DBC5F5004BD3E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44E7314D29DBC5F4004BD3E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E7315429DBC5F4004BD3E2;
+			remoteInfo = "household-inventory-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44E7315529DBC5F4004BD3E2 /* household-inventory-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "household-inventory-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E7315829DBC5F4004BD3E2 /* household_inventory_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = household_inventory_appApp.swift; sourceTree = "<group>"; };
+		44E7315A29DBC5F4004BD3E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		44E7315C29DBC5F5004BD3E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44E7315F29DBC5F5004BD3E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44E7316129DBC5F5004BD3E2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		44E7316429DBC5F5004BD3E2 /* household_inventory_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = household_inventory_app.xcdatamodel; sourceTree = "<group>"; };
+		44E7316A29DBC5F5004BD3E2 /* household-inventory-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "household-inventory-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E7316E29DBC5F5004BD3E2 /* household_inventory_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = household_inventory_appTests.swift; sourceTree = "<group>"; };
+		44E7317429DBC5F5004BD3E2 /* household-inventory-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "household-inventory-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E7317829DBC5F5004BD3E2 /* household_inventory_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = household_inventory_appUITests.swift; sourceTree = "<group>"; };
+		44E7317A29DBC5F5004BD3E2 /* household_inventory_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = household_inventory_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44E7315229DBC5F4004BD3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E7316729DBC5F5004BD3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E7317129DBC5F5004BD3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44E7314C29DBC5F4004BD3E2 = {
+			isa = PBXGroup;
+			children = (
+				44E7315729DBC5F4004BD3E2 /* household-inventory-app */,
+				44E7316D29DBC5F5004BD3E2 /* household-inventory-appTests */,
+				44E7317729DBC5F5004BD3E2 /* household-inventory-appUITests */,
+				44E7315629DBC5F4004BD3E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44E7315629DBC5F4004BD3E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44E7315529DBC5F4004BD3E2 /* household-inventory-app.app */,
+				44E7316A29DBC5F5004BD3E2 /* household-inventory-appTests.xctest */,
+				44E7317429DBC5F5004BD3E2 /* household-inventory-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44E7315729DBC5F4004BD3E2 /* household-inventory-app */ = {
+			isa = PBXGroup;
+			children = (
+				44E7315829DBC5F4004BD3E2 /* household_inventory_appApp.swift */,
+				44E7315A29DBC5F4004BD3E2 /* ContentView.swift */,
+				44E7315C29DBC5F5004BD3E2 /* Assets.xcassets */,
+				44E7316129DBC5F5004BD3E2 /* Persistence.swift */,
+				44E7316329DBC5F5004BD3E2 /* household_inventory_app.xcdatamodeld */,
+				44E7315E29DBC5F5004BD3E2 /* Preview Content */,
+			);
+			path = "household-inventory-app";
+			sourceTree = "<group>";
+		};
+		44E7315E29DBC5F5004BD3E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				44E7315F29DBC5F5004BD3E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44E7316D29DBC5F5004BD3E2 /* household-inventory-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				44E7316E29DBC5F5004BD3E2 /* household_inventory_appTests.swift */,
+			);
+			path = "household-inventory-appTests";
+			sourceTree = "<group>";
+		};
+		44E7317729DBC5F5004BD3E2 /* household-inventory-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44E7317829DBC5F5004BD3E2 /* household_inventory_appUITests.swift */,
+				44E7317A29DBC5F5004BD3E2 /* household_inventory_appUITestsLaunchTests.swift */,
+			);
+			path = "household-inventory-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44E7315429DBC5F4004BD3E2 /* household-inventory-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E7317E29DBC5F5004BD3E2 /* Build configuration list for PBXNativeTarget "household-inventory-app" */;
+			buildPhases = (
+				44E7315129DBC5F4004BD3E2 /* Sources */,
+				44E7315229DBC5F4004BD3E2 /* Frameworks */,
+				44E7315329DBC5F4004BD3E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "household-inventory-app";
+			productName = "household-inventory-app";
+			productReference = 44E7315529DBC5F4004BD3E2 /* household-inventory-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44E7316929DBC5F5004BD3E2 /* household-inventory-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E7318129DBC5F5004BD3E2 /* Build configuration list for PBXNativeTarget "household-inventory-appTests" */;
+			buildPhases = (
+				44E7316629DBC5F5004BD3E2 /* Sources */,
+				44E7316729DBC5F5004BD3E2 /* Frameworks */,
+				44E7316829DBC5F5004BD3E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44E7316C29DBC5F5004BD3E2 /* PBXTargetDependency */,
+			);
+			name = "household-inventory-appTests";
+			productName = "household-inventory-appTests";
+			productReference = 44E7316A29DBC5F5004BD3E2 /* household-inventory-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44E7317329DBC5F5004BD3E2 /* household-inventory-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E7318429DBC5F5004BD3E2 /* Build configuration list for PBXNativeTarget "household-inventory-appUITests" */;
+			buildPhases = (
+				44E7317029DBC5F5004BD3E2 /* Sources */,
+				44E7317129DBC5F5004BD3E2 /* Frameworks */,
+				44E7317229DBC5F5004BD3E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44E7317629DBC5F5004BD3E2 /* PBXTargetDependency */,
+			);
+			name = "household-inventory-appUITests";
+			productName = "household-inventory-appUITests";
+			productReference = 44E7317429DBC5F5004BD3E2 /* household-inventory-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44E7314D29DBC5F4004BD3E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					44E7315429DBC5F4004BD3E2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					44E7316929DBC5F5004BD3E2 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 44E7315429DBC5F4004BD3E2;
+					};
+					44E7317329DBC5F5004BD3E2 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 44E7315429DBC5F4004BD3E2;
+					};
+				};
+			};
+			buildConfigurationList = 44E7315029DBC5F4004BD3E2 /* Build configuration list for PBXProject "household-inventory-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44E7314C29DBC5F4004BD3E2;
+			productRefGroup = 44E7315629DBC5F4004BD3E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44E7315429DBC5F4004BD3E2 /* household-inventory-app */,
+				44E7316929DBC5F5004BD3E2 /* household-inventory-appTests */,
+				44E7317329DBC5F5004BD3E2 /* household-inventory-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44E7315329DBC5F4004BD3E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E7316029DBC5F5004BD3E2 /* Preview Assets.xcassets in Resources */,
+				44E7315D29DBC5F5004BD3E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E7316829DBC5F5004BD3E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E7317229DBC5F5004BD3E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44E7315129DBC5F4004BD3E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E7316529DBC5F5004BD3E2 /* household_inventory_app.xcdatamodeld in Sources */,
+				44E7316229DBC5F5004BD3E2 /* Persistence.swift in Sources */,
+				44E7315B29DBC5F4004BD3E2 /* ContentView.swift in Sources */,
+				44E7315929DBC5F4004BD3E2 /* household_inventory_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E7316629DBC5F5004BD3E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E7316F29DBC5F5004BD3E2 /* household_inventory_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E7317029DBC5F5004BD3E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E7317929DBC5F5004BD3E2 /* household_inventory_appUITests.swift in Sources */,
+				44E7317B29DBC5F5004BD3E2 /* household_inventory_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44E7316C29DBC5F5004BD3E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44E7315429DBC5F4004BD3E2 /* household-inventory-app */;
+			targetProxy = 44E7316B29DBC5F5004BD3E2 /* PBXContainerItemProxy */;
+		};
+		44E7317629DBC5F5004BD3E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44E7315429DBC5F4004BD3E2 /* household-inventory-app */;
+			targetProxy = 44E7317529DBC5F5004BD3E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44E7317C29DBC5F5004BD3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44E7317D29DBC5F5004BD3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44E7317F29DBC5F5004BD3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"household-inventory-app/Preview Content\"";
+				DEVELOPMENT_TEAM = 6T3VFGZT69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teadragonstudios.household-inventory-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44E7318029DBC5F5004BD3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"household-inventory-app/Preview Content\"";
+				DEVELOPMENT_TEAM = 6T3VFGZT69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teadragonstudios.household-inventory-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44E7318229DBC5F5004BD3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T3VFGZT69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teadragonstudios.household-inventory-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/household-inventory-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/household-inventory-app";
+			};
+			name = Debug;
+		};
+		44E7318329DBC5F5004BD3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T3VFGZT69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teadragonstudios.household-inventory-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/household-inventory-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/household-inventory-app";
+			};
+			name = Release;
+		};
+		44E7318529DBC5F5004BD3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T3VFGZT69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teadragonstudios.household-inventory-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "household-inventory-app";
+			};
+			name = Debug;
+		};
+		44E7318629DBC5F5004BD3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T3VFGZT69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teadragonstudios.household-inventory-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "household-inventory-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44E7315029DBC5F4004BD3E2 /* Build configuration list for PBXProject "household-inventory-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E7317C29DBC5F5004BD3E2 /* Debug */,
+				44E7317D29DBC5F5004BD3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E7317E29DBC5F5004BD3E2 /* Build configuration list for PBXNativeTarget "household-inventory-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E7317F29DBC5F5004BD3E2 /* Debug */,
+				44E7318029DBC5F5004BD3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E7318129DBC5F5004BD3E2 /* Build configuration list for PBXNativeTarget "household-inventory-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E7318229DBC5F5004BD3E2 /* Debug */,
+				44E7318329DBC5F5004BD3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E7318429DBC5F5004BD3E2 /* Build configuration list for PBXNativeTarget "household-inventory-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E7318529DBC5F5004BD3E2 /* Debug */,
+				44E7318629DBC5F5004BD3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44E7316329DBC5F5004BD3E2 /* household_inventory_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44E7316429DBC5F5004BD3E2 /* household_inventory_app.xcdatamodel */,
+			);
+			currentVersion = 44E7316429DBC5F5004BD3E2 /* household_inventory_app.xcdatamodel */;
+			path = household_inventory_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44E7314D29DBC5F4004BD3E2 /* Project object */;
+}
